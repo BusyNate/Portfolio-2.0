@@ -7,7 +7,7 @@ export function Button() {
       backgroundColor: 'rgba(181,22,253)',
       color: 'white',
       padding: '10px 20px',
-      borderRadius: '5px',
+      borderRadius: '5px',  
       border: 'none',
       cursor: 'pointer',
       marginTop: '20px',
