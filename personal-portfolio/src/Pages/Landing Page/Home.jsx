@@ -40,8 +40,8 @@ export default function Home({ home }) {
           maxWidth: '600px',
 
         }}>
-          <h1 style={{color:'rgba(181,22,253)'}}>{home.title}</h1>
-          <p style={{color:'rgba(218,226,227,1'}}>{home.desr} <span style={{color:'rgba(181,22,253'}}>{home.p}</span>
+          <h1 style={{color:'rgba(181,22,253)', fontSize:'65px'}}>{home.title}</h1>
+          <p style={{color:'rgba(218,226,227,1)', fontSize:'20px'}}>{home.desr} <span style={{color:'rgba(181,22,253'}}>{home.p}</span>
           </p>
          
           <Button/>

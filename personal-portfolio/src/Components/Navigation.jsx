@@ -1,5 +1,5 @@
 import React from 'react'
-
+import GradientRule from './GradientRule'
 export default function Navigation() {
   return (<>
 
@@ -12,10 +12,7 @@ export default function Navigation() {
         <li><a>Contact</a></li>
       </ul>
     </div>
-    <hr style={{ margin: '10px 0 30px 0',
-      height:'3px',
-      border: 'none',
-        backgroundImage: 'linear-gradient(to right, darkorange, purple)', }} />
+    <GradientRule/>
   </>
   )
 }

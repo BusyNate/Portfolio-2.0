@@ -7,8 +7,6 @@ export default function PlanningCard() {
 
         <img src='./src/assets/Icons/Design Icon.png' alt='design icon'></img>
 
-        
-
 
         <h2 style={{color:'white',}}>1. Planning</h2>
         <p style={{color:'white', maxWidth:'297px',}}> The planning phase is where technical requirements meet product design in a way that makes best sense to the user. All detail will I map out meticously to ensure the end product is not compromised</p>
@@ -19,7 +17,6 @@ export default function PlanningCard() {
 
 
 }
-
 
 export function ProcessCard(){
 
@@ -48,8 +45,6 @@ export function ProcessCard(){
 
 }
 
-
-
 export function ProductCard(){
 
 
@@ -76,7 +71,6 @@ export function ProductCard(){
 
 
 }
-
 
 export function PerformanceCard(){
 
