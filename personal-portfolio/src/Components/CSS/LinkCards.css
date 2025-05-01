@@ -1,0 +1,34 @@
+.link-cards{
+display: grid;
+grid-template-columns: repeat(1, 1fr);  
+   
+padding: 10px;
+}
+
+
+.email-card, .github-card, .linkedin-card, .cellnumber-card{
+    display:flex;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    
+    padding:10px;
+    align-items: center;
+    gap: 10px;
+    height: min-content;
+    border-radius: 15px;
+    flex-direction: row;
+    max-width: 360px;
+    color: rgb(154, 8, 221);
+    background-color: rgba(218,226,227,1);
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.8);
+    }
+}
+
+
+
+#linkedin-icon{
+    margin-top: -10px;
+}
+

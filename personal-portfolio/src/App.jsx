@@ -1,6 +1,8 @@
 import Home from './Pages/Landing Page/Home'
 import WorkFlow from './Pages/Workflow Page/WorkFlow'
+import Contact from './Pages/Contact Page/Contact'
 import './App.css'
+
 function App() {
 
 
@@ -15,6 +17,8 @@ function App() {
     <>
     <Home home={home}></Home>
     <WorkFlow/>
+    <Contact/>
+
     </>
   )
 }
