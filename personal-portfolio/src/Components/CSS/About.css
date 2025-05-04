@@ -1,0 +1,72 @@
+.Element-card{
+    /* White background */
+    background-color: white;
+    /* Remove default text color from card */
+    /* color:white; */
+    border: 1px solid #ccc; /* Using a light grey border instead of white */
+    overflow-wrap: anywhere;
+    display: flex;
+    /* Align items vertically to the middle */
+    align-items: center;
+
+    gap: 15px; /* Increased gap slightly */
+    /* Remove conflicting height/max-height, use min-height */
+    min-height: 70px;
+    /* Add padding */
+    padding: 15px;
+    border-radius: 18px; /* Added slight rounding to the card itself */
+}
+
+.Element-card img{
+    /* Fixed size for the icon */
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+    flex-shrink: 0;
+
+    /* Prevent icon from shrinking */
+    /* Removed border */
+    /* border: 2px solid white; */
+}
+
+.divider{
+    border-image-source: linear-gradient(to top, purple,darkorange);
+    border-style: solid;
+    border-width: 3px;
+    border-image-slice: 1;
+    /* Make divider take full height of flex container */
+    align-self: stretch;
+    /* Round out the divider */
+    border-radius: 15px;
+}
+
+.Element-card span p {
+    /* Off grey text color */
+    color: #555; /* Darker grey for readability */
+    /* Scale down text */
+    font-size: 0.9rem; /* Adjust as needed */
+    margin: 0; /* Remove default paragraph margin */
+}
+
+#me-id{
+
+    width: 180px;
+    border-image-source: linear-gradient(to top, purple,darkorange);
+    border-style: solid;
+    border-width: 3px;
+    border-image-slice: 1;
+    margin-bottom: 25px;
+
+
+}
+
+
+.Element-container{
+    border-image-source: linear-gradient(to top, purple,darkorange);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+

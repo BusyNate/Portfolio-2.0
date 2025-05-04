@@ -1,0 +1,110 @@
+/* Optional: Style the overall page container if needed */
+.gallery-page {
+    min-height: 100vh;
+}
+
+/* Wrapper to hold the two main content columns */
+.gallery-content-wrapper {
+    display: flex;
+    width: 100%;
+
+}
+
+
+/* Left panel styling */
+.left-panel {
+    margin-top: 20px;
+    width: 42%; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-image-source: linear-gradient(to bottom left, darkorange, purple);
+    border-width: 5px;
+    border-style: solid;
+    border-image-slice: 9;
+    padding: 10px;
+    min-height: 100.5vh;
+    margin-bottom: 40px;
+
+     /* border-right: 1px solid #444;
+    box-sizing: border-box;  */
+}
+
+/* Right panel containing the gallery grid */
+.gallery-grid-container {
+    
+    width: 55%; /* Take up the other half of the width */
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the title and grid horizontally */
+}
+
+.gallery-title {
+ 
+    color: white;
+    border-color: white solid 1px; /* Optional: Border for the title */
+    margin-bottom: 30px; /* Space below the title */
+    text-align: center;
+}
+
+/* The 2x2 grid layout for articles */
+.gallery-grid {
+    padding: 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+    grid-template-rows: repeat(2, auto);    /* Two rows, height determined by content */
+    gap: 13px; /* Adjust the gap between grid items as needed */
+    width: 100%; 
+    
+    max-width: 700px;
+    border-image-source: linear-gradient(to bottom right, darkorange, purple);
+    border-image-slice: 2;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-top-width: 5px;
+    border-left-width: 5px;
+
+}
+
+
+.left-panel hr{
+    border: none;
+    height: 5px;
+    margin-top: 15px;
+    border-radius: 1px;
+    background-image: linear-gradient(to left, darkorange, rgb(146, 4, 146) 150%);
+    width: 85%;
+
+  
+}
+
+
+#me-id{
+    padding:6px;
+    width: 200px;
+    
+    margin-top: 30px;
+    border-image-source: linear-gradient(to top right, purple,darkorange);
+    border-style: solid;
+    border-image-slice: 1;
+    border-width: 4px;
+    margin-bottom: 25px;
+
+
+}
+h1{
+    color: white;
+    padding-top:5px;
+    text-align: center;
+
+}
+
+
+.Element-container{
+
+    display: grid;
+    gap: 45px;
+
+}

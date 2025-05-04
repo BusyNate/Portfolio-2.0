@@ -1,8 +1,9 @@
 import Home from './Pages/Landing Page/Home'
 import WorkFlow from './Pages/Workflow Page/WorkFlow'
 import Contact from './Pages/Contact Page/Contact'
+import Gallery from './Pages/Gallery/Gallery'
 import './App.css'
-
+import React from 'react'
 function App() {
 
 
@@ -17,6 +18,7 @@ function App() {
     <>
     <Home home={home}></Home>
     <WorkFlow/>
+    <Gallery/>
     <Contact/>
 
     </>

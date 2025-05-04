@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function PlanningCard() {
   return (
-    <div style={{width:'250px', height:'300px', border:'none', padding:'10px', borderRadius:'10px', backgroundImage:'linear-gradient(to top left, rgba(181,22,253), purple)', padding:'20px', borderRadius:'10px'}}>
+    <div style={{width:'250px', height:'300px', border:'none', backgroundImage:'linear-gradient(to top left, rgba(181,22,253), purple)', padding:'20px', borderRadius:'10px'}}>
     <article style={{display:'flex', alignItems:'flex-start', flexDirection:'column',}}>
 
         <img src='./src/assets/Icons/Design Icon.png' alt='design icon'></img>
@@ -23,7 +23,7 @@ export function ProcessCard(){
 
     return(
 
-        <div style={{width:'250px', height:'300px', border:'none', padding:'10px', borderRadius:'10px', backgroundImage:'linear-gradient(to top left, rgba(181,22,253), purple)', padding:'20px', borderRadius:'10px'}}>
+        <div style={{width:'250px', height:'300px', border:'none', backgroundImage:'linear-gradient(to top left, rgba(181,22,253), purple)', padding:'20px', borderRadius:'10px'}}>
         <article style={{display:'flex', alignItems:'flex-start', flexDirection:'column',}}>
     
             <img src='./src/assets/Icons/process Icon.png' alt='process icon'></img>
@@ -50,7 +50,7 @@ export function ProductCard(){
 
     return(
 
-        <div style={{width:'250px', height:'300px', border:'none', padding:'10px', borderRadius:'10px', backgroundImage:'linear-gradient(to top left, rgba(181,22,253), purple)', padding:'20px', borderRadius:'10px'}}>
+        <div style={{width:'250px', height:'300px', border:'none', backgroundImage:'linear-gradient(to top left, rgba(181,22,253), purple)', padding:'20px', borderRadius:'10px'}}>
         <article style={{display:'flex', alignItems:'flex-start', flexDirection:'column',}}>
     
             <img src='./src/assets/Icons/Product Icon.png' alt='product icon'></img>
@@ -77,7 +77,7 @@ export function PerformanceCard(){
 
     return(
 
-        <div style={{width:'250px', height:'300px', border:'none', padding:'10px', borderRadius:'10px', backgroundImage:'linear-gradient(to top left, rgba(181,22,253), purple)', padding:'20px', borderRadius:'10px',}}>
+        <div style={{width:'250px', height:'300px', border:'none', backgroundImage:'linear-gradient(to top left, rgba(181,22,253), purple)', padding:'20px', borderRadius:'10px',}}>
         <article style={{display:'flex', alignItems:'flex-start', flexDirection:'column',}}>
     
             <img src='./src/assets/Icons/Performance Icon.png' alt='Performance icon'></img>
