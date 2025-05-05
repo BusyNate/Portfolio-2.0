@@ -1,0 +1,61 @@
+.home-container {
+    padding: 20px;
+}
+
+.home-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 30px;
+}
+
+.home-text-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    width: 600px;
+}
+
+.home-title {
+    color: rgba(181, 22, 253);
+    font-size: 65px;
+    margin: 10; /* Added to reset default margin */
+}
+
+.home-description {
+    color: rgba(218, 226, 227, 1);
+    font-size: 20px;
+    max-width: 500px;
+}
+
+.home-description-highlight {
+    color: rgba(181, 22, 253);
+}
+
+.home-cv-button {
+    background-color: rgb(151, 13, 214);
+    color: white;
+    padding: 10px 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    width: fit-content;
+    transition: ease-in-out 0.3s;
+}
+
+.home-image {
+    margin-left: 90px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.home-cv-button:hover {
+    transform: scale(1.1);
+    transform: translateY(-4px);
+    box-shadow: 0 4px 10px rgb(142, 142, 142);
+}

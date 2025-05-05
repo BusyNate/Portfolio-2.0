@@ -1,0 +1,54 @@
+.workflow-container {
+  padding: 20px;
+}
+
+.workflow-content hr{
+
+    width: 100%;
+}
+
+.workflow-content {
+  display: flex;
+  justify-content: center;
+  align-items: self;
+  gap: 20px;
+  padding: 30px;
+
+}
+
+.workflow-header {
+  display: flex;
+  max-width: 85%; 
+  flex-direction: column;
+  gap: 100px; 
+
+}
+
+.workflow-title {
+  font-size: 70px;
+  color: rgb(230, 231, 231);
+  text-align: left;
+}
+
+.workflow-description-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.workflow-description {
+  color: rgba(218, 226, 227, 1);
+  font-size: 20px;
+  text-align: left; 
+  max-width: 600px;
+  padding-right: 20px; 
+  line-height: 1.6; 
+}
+
+.workflow-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: space-evenly;
+  width: 100%;
+}

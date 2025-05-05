@@ -1,7 +1,6 @@
 .link-cards{
 display: grid;
-grid-template-columns: repeat(1, 1fr);  
-       
+grid-template-columns: repeat(1, 1fr);        
 padding: 10px;
 }
 
@@ -9,7 +8,6 @@ padding: 10px;
 .email-card, .github-card, .linkedin-card, .cellnumber-card{
     display:flex;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.8);
     padding:10px;
     align-items: center;
@@ -25,10 +23,10 @@ padding: 10px;
     
     }
 }
-
-
-
 #linkedin-icon{
     margin-top: -10px;
 }
 
+a {
+    all: unset;
+}

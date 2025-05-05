@@ -25,7 +25,7 @@ export function LinkedInCard() {
   return (
     <div className='linkedin-card'>
     <img src='./src/assets/Icons/LinkdIn.svg' id='linkedin-icon'></img>
-      <h2><a>Nathan Mtetwa</a></h2>
+      <h2><a href='https://www.linkedin.com/in/manqoba-mtetwa/'>Manqoba Mtetwa</a></h2>
       </div>
       )
 }
@@ -34,7 +34,7 @@ export function GitHubCard() {
   return (
     <div className='github-card'>
     <img src='./src/assets/Icons/git.svg'></img>
-      <h2><a>@BusyNate</a></h2>
+      <h2><a href='https://github.com/BusyNate'>@BusyNate</a></h2>
       </div>
       )
 }

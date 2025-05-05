@@ -1,11 +1,13 @@
-import React from 'react'
-import GradientRule from './GradientRule'
-export default function Navigation() {
-  return (<>
+import React from 'react';
+import GradientRule from './GradientRule';
+import './CSS/Navigation.css'; // Import the CSS file
 
-    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '10px' }}>
-      <span style={{ padding: '20px',color:'rgba(218,226,227,1' }}>Nathan</span>
-      <ul style={{ listStyleType: 'none', display: 'flex', gap: '35px', padding: '0', marginRight: '10px',color:'rgba(218,226,227,1' }}>
+export default function Navigation() {
+  return (
+    <>
+      <div className="navigation-container">
+        <span className="navigation-brand">Nathan</span>
+        <ul className="navigation-links">
         <li><a>Home</a></li>
         <li><a>Workflow</a></li>
         <li><a>About Me</a></li>
@@ -13,6 +15,6 @@ export default function Navigation() {
       </ul>
     </div>
     <GradientRule/>
-  </>
-  )
+    </>
+  );
 }

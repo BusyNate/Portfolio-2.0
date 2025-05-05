@@ -1,98 +1,103 @@
 .article-container {
     display: flex;
-    flex-wrap: wrap; /* Allow cards to wrap to the next line */
-    gap: 20px; /* Space between cards */
-    justify-content: center; /* Center cards horizontally */
-    padding: 20px; /* Add some padding around the container */
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center;
+    padding: 20px;
 }
 .Card {
-    width: 300px; /* Guideline 2: Card width */
-    background-color: #f8f8f8; /* Guideline 3: Off-white background */
-    border-radius: 8px; /* Optional: Add some rounded corners */
-    overflow: hidden; /* Ensures image container fits snugly */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow */
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack image and content vertically */
+    width: 300px;
+    background-color: #f8f8f8; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    flex-direction: column; 
 }
 
 .img-container {
-    width: 100%; /* Fit snugly to the Card */
-    height: 150px; /* Give the image container a fixed height or aspect-ratio */
-    overflow: hidden; /* Hide any image overflow */
+    width: 100%; 
+    height: 150px; 
+    overflow: hidden;
 }
 
 .img-container img {
-    width: 100%; /* Guideline 3: Image fits its container */
-    height: 100%; /* Guideline 3: Image fits its container */
-    object-fit: cover; /* Cover the container area, might crop */
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
   
 }
 
 .content {
     padding: 15px;
-    color: #333; /* Default text color (adjust if needed, guideline asked for white, but that won't show on off-white bg) */
-    text-align: center; /* Guideline 3: Align content in the middle */
+    color: #333; 
+    text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center items horizontally */
+    align-items: center;
 }
 
 .content header {
-    display: flex; /* Use flexbox for header layout */
-    align-items: center; /* Vertically align items in header */
-    justify-content: space-between; /* Space out title and icon */
-    width: 100%; /* Make header take full width of content area */
-    margin-bottom: 10px; /* Add space below header */
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;  
+    margin-bottom: 10px;
 }
 
 .content header h3 {
-    margin: 0; /* Remove default margin */
-    flex-basis: 75%; /* Guideline 1: h3 takes 75% width */
-    text-align: left; /* Align title text to the left */
-    color: #111; /* Darker color for title for contrast */
+    margin: 0; 
+    flex-basis: 75%;
+    text-align: left; 
+    color: #111;
 }
 
 .content header .icon {
-    width: 48px; /* Guideline 1: Icon width */
-    height: 48px; /* Guideline 1: Icon height */
+    width: 48px; 
+    height: 48px; 
     border-radius: 5px;
 }
 
 .content p {
-    margin-bottom: 15px; /* Space below description */
+    margin-bottom: 15px;
     text-align: left;
-    color: #555; /* Slightly lighter text for description */
+    color: #555; 
 }
 
 .visit-button {
-    background-color: transparent; /* Make background see-through */
-    color: orange; /* Change text color to orange for visibility */
-    border: 2px solid orange; /* Add a 2px solid orange border */
-    /* height: fit-content; - Padding will control height, this might not be needed */
+    background-color: transparent; 
+    color: orange; 
+    border: 2px solid orange;
     height:fit-content;
     padding: 5px 15px;
     border-radius: 5px;
     cursor: pointer;
     display: flex;
     align-items: center;
-    gap: 5px; /* Space between text and icon */
+    gap: 5px; 
     font-weight: bold;
 }
 
-/* Optional: If the icon inside the button is hard to see now,
-   you might need an orange version of the icon or use an SVG
-   that can be colored with CSS (e.g., using fill="currentColor"). */
+
 .visit-button img {
-    width: 16px; /* Adjust icon size as needed */
+    width: 16px; 
     height: 16px;
 }
 
-/* Ensure the <p> tag inside the button doesn't have conflicting styles */
 .visit-button p {
-    margin: 0; /* Remove default paragraph margins */
+    margin: 0;
 }
 
 .content hr{
  width: 100%;
 
+}
+
+.Card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgb(158, 48, 181);
 }

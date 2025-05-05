@@ -1,0 +1,39 @@
+.card-container{
+
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    border: none;
+    background-image:linear-gradient(to top left, rgba(181,22,253), purple);
+    border-radius: 10px;
+    
+}
+
+.card-content{
+
+display: flex;
+align-items: flex-start;
+flex-direction: column;;
+}
+
+
+.card-content h2, p{
+
+    color: white;
+    max-width: 297px;
+}
+
+.card-content img{
+
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-content img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 20px rgb(110, 5, 131);
+    
+
+
+
+}

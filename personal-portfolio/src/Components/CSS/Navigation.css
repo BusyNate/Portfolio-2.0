@@ -1,0 +1,34 @@
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .navigation-brand {
+    padding: 20px;
+    color: rgba(218, 226, 227, 1);
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .navigation-links {
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+    padding: 0;
+    margin-right: 10px;
+    color: rgba(218, 226, 227, 1);
+  }
+  
+  .navigation-links li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit; 
+    transition: color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .navigation-links li a:hover {
+    color: rgba(181, 22, 253);
+  }
