@@ -4,6 +4,8 @@ import Contact from './Pages/Contact Page/Contact'
 import Gallery from './Pages/Gallery/Gallery'
 import './App.css'
 import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+
 function App() {
 
 
@@ -16,11 +18,12 @@ function App() {
   }
   return (
     <>
-    <Home home={home}></Home>
-    <WorkFlow/>
-    <Gallery/>
-    <Contact/>
-
+    <Routes>
+      <Route path="/" element={<Home home={home} />} />
+      <Route path="/workflow" element={<WorkFlow />} />
+      <Route path="/gallery" element={<Gallery />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
     </>
   )
 }
