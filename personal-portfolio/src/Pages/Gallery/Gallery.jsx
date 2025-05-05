@@ -40,13 +40,13 @@ export default function Gallery() {
 const infoCard1 = {
   id:1,
   iconSrc:'./src/assets/Icons/grad.svg',
-  text:"Belgium Campus ITversity graduate with expertise in building Web Applications using front-end and back-end frameworks, complemented by programming skills in Java and C#."
+  text:"Belgium Campus ITversity graduate with fundemental knowledge in building Web Applications using front-end and back-end frameworks, complemented by programming skills in Java and C#."
 }
 
 const infoCard2 = {
   id:2,
   iconSrc:'./src/assets/Icons/design.svg',
-  text:"As a creative and tinkerer at heart, my true passion lies at the intersection of art and technology, where form meets function. Designing and building a brand is my aspiration."
+  text:"As a creative and tinkerer at heart, my true passion lies at the intersection of art and technology, where form meets function. Designing and building products is my aspiration."
 }
 
 const infoCard3 = {
