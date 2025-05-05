@@ -6,7 +6,8 @@
     border: none;
     background-image:linear-gradient(to top left, rgba(181,22,253), purple);
     border-radius: 10px;
-    
+    box-shadow: 0 8px 18px rgb(52, 1, 63);
+
 }
 
 .card-content{
@@ -32,8 +33,7 @@ flex-direction: column;;
 .card-content img:hover {
     transform: scale(1.1);
     box-shadow: 0 12px 20px rgb(110, 5, 131);
-    
-
-
 
 }
+
+

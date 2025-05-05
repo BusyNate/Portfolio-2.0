@@ -7,6 +7,8 @@ export default function SubmitButton({ validForm }) {
   function timeout() {setTimeout(() => {
     setText('Send'); // Reset text back to "Send" after 2 seconds
     },1500);}
+
+    
   return (
     <div className="submit-button">
       <button
@@ -14,7 +16,6 @@ export default function SubmitButton({ validForm }) {
         disabled={!validForm} // Disable button if form isn't valid
         style={{
           backgroundColor: validForm ? 'darkorange' : 'purple', // Change color based on validity
-          cursor: validForm ? 'pointer' : 'not-allowed',
         }}
         onClick={() => {
           if (validForm) {
