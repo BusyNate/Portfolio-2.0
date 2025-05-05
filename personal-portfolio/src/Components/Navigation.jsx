@@ -7,7 +7,7 @@ export default function Navigation() {
   return (
     <>
       <div className="navigation-container">
-        <span className="navigation-brand">Nathan</span>
+        <img src='./src/assets/logo.svg' alt='logo' width={250}></img>
         <ul className="navigation-links">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/workflow">Workflow</Link></li>

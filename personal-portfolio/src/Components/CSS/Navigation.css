@@ -32,3 +32,12 @@
   .navigation-links li a:hover {
     color: rgba(181, 22, 253);
   }
+
+  .navigation-container img{
+
+    border-radius: 10px;
+
+
+
+
+  }
