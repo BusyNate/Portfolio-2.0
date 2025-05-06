@@ -4,16 +4,16 @@ import Article from '../../Components/Article'
 import Element from '../../Components/About'
 import './Gallery.css'
 import blackjackImg from '../../assets/Gallery/blackjack.svg';
-import campusManagerImg from '../../assets/Gallery/Campus Manager.svg';
-import employeeManagerImg from '../../assets/Gallery/java-Employee Management.svg';
-import webLoginImg from '../../assets/Gallery/Web Login 1.svg';
+import campusManagerImg from '../../assets/Gallery/Campus-Manager.svg';
+import employeeManagerImg from '../../assets/Gallery/java-Employee-Management.svg';
+import webLoginImg from '../../assets/Gallery/Web-Login.svg';
 import javascriptIcon from '../../assets/Icons/javascript-js.svg';
 import pythonIcon from '../../assets/Icons/python.svg';
 import javaIcon from '../../assets/Icons/java.svg';
 import gradIcon from '../../assets/Icons/grad.svg';
 import designIcon from '../../assets/Icons/design.svg';
 import shareIcon from '../../assets/Icons/share.svg';
-import meSuitImg from '../../assets/me-suit 1.png';
+import meSuitImg from '../../assets/me-suit.png';
 
 const art1 = {
   title: 'Black Jack', 
@@ -93,7 +93,7 @@ export default function Gallery() {
             <Article article={art1}/>
             <Article article={art2}/>
             <Article article={art3}/>
-            <Article  article = {art4}/>
+            <Article article={art4}/>
 
 
             </div>

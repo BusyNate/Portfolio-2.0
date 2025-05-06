@@ -1,9 +1,9 @@
 import React from 'react'
 import './CSS/WorkFlowCards.css'
-import process from '../assets/Icons/process Icon.png'
-import planning from '../assets/Icons/Design Icon.png'
-import product from '../assets/Icons/Product Icon.png'
-import performance from '../assets/Icons/Performance Icon.png'
+import process from '../assets/Icons/Process-Icon.png'
+import planning from '../assets/Icons/Design-Icon.png'
+import product from '../assets/Icons/Product_Icon.png'
+import performance from '../assets/Icons/Performance-Icon.png'
 
 
 export default function PlanningCard() {
