@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './CSS/Button.css';
+import plane from '../assets/Icons/Paper Plane.svg'
+
 
 export default function SubmitButton({ validForm }) {
   const [Text, setText] = useState('Send'); // Initial button text
@@ -24,7 +26,7 @@ export default function SubmitButton({ validForm }) {
         }}}>
       
         {Text}
-        <img src="./src/assets/Icons/Paper Plane.svg" alt="send"></img>
+        <img src={plane} alt="send"></img>
       </button>
     </div>
   );
