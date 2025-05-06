@@ -1,5 +1,6 @@
 import React from 'react'
 import GradientRule from './GradientRule'
+import visit from '../assets/Icons/visit.svg'
 import './CSS/Article.css'
 
 
@@ -20,7 +21,7 @@ export default function ProjectCard( {article}) {
             <p>{article.body}</p>
             <button className='visit-button' onClick={() => window.open(article.link, '_blank')}>
             <p>Visit</p>
-            <img src='./src/assets/Icons/visit.svg' alt='visit icon'></img>
+            <img src={visit} alt='visit icon'></img>
 
             </button>
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './CSS/Button.css';
-import plane from '../assets/Icons/Paper Plane.svg'
+import plane from '../assets/Icons/Paper-Plane.svg'
 
 
 export default function SubmitButton({ validForm }) {

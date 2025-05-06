@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../../Components/Navigation';
+import home from '../../assets/Me.png'
 import './Home.css'; // Import the CSS file
 
 export function Button() {
