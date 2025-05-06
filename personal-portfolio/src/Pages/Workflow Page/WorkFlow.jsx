@@ -17,7 +17,7 @@ export default function WorkFlow() {
           <div className="workflow-description-container">
             <GradientRule />
             <p className="workflow-description">
-              To every master architect, developer and designer, an established methodolody is employed to achieve the deepest level of flow-state as to yield maximal results. Here lies a High-Level overview of my strategic workflow I haved used to implement & complete projects.
+              To every master architect, developer and designer, an established methodolody is employed to achieve the deepest level of flow-state as to yield maximal results. Here lies a High-Level overview of my strategic workflow I have used to implement & complete projects.
             </p>
             <GradientRule />
           </div>
