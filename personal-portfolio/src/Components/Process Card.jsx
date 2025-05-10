@@ -15,7 +15,7 @@ export default function PlanningCard() {
 
 
         <h2>1. Planning</h2>
-        <p> The planning phase is where technical requirements meet product design in a way that makes best sense to the user. All detail will I map out meticously to ensure the end product is not compromised</p>
+        <p> The planning phase is where technical requirements meet product design in a way that makes the best sense to the user. </p>
         </article>
     </div>
 
@@ -27,22 +27,15 @@ export default function PlanningCard() {
 export function ProcessCard(){
 
 
-    return(
-
+    return (
         <div className='card-container'>
         <article className='card-content'>
-    
             <img src={process} alt='process icon'></img>
-    
+            <h2>2. Process</h2>
             
-    
-    
-            <h2 >2. Process</h2>
-            <p> The process is where I roll up my sleeves and put my hands where every design specification is ticked off the list one by one to create the MVP - Minimum Viable Product. The prototype is then handed over for validation & User Acceptance Testing.</p>
-            </article>
+            <p> The process is where I implement every design spec to create the Minimum Viable Product (MVP), which is then validated by users and tested.</p>
+        </article>
         </div>
-
-
     )
 
 
@@ -60,11 +53,10 @@ export function ProductCard(){
         <article className='card-content'>
             <img src={product} alt='product icon'></img>
     
-            <h2 >3. Product</h2>
-            <p > The product is a result of the continuous and incremental evolution of the MVP. All rough edges are polished off, and the feedback is integrated. Thereafter, the product is presented and handed over to the satisifed client </p>
-            </article>
+            <h2>3. Product</h2>
+            <p>The final product evolves from the MVP, integrating feedback and polishing off rough edges before being delivered to the client.</p>
+        </article>
         </div>
-
 
     )
 
@@ -73,20 +65,17 @@ export function ProductCard(){
 export function PerformanceCard(){
 
 
-    return(
-
+    return (
         <div className='card-container'>
-        <article className='card-content'>
-    
-            <img src={performance} alt='Performance icon'></img>
-    
-            <h2 >4. Performance</h2>
-            <p>Finally a performance review is conducted to ensure quality standards were met, project deadlines were adhered to and personal recommendations to myself are recorded to improve efficiency for the next product.</p>
+            <article className='card-content'>
+                <img src={performance} alt='Performance icon' />
+                <h2>4. Performance</h2>
+                <p>
+                    A performance review is conducted to ensure it met quality standards and deadlines. Insights are documented for future projects.
+                </p>
             </article>
         </div>
-
-
-    )
+    );
 
 
 

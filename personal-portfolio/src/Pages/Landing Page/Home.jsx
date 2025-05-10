@@ -1,16 +1,18 @@
 import React from 'react';
 import Navigation from '../../Components/Navigation';
-import home from '../../assets/Me.png'
-import './Home.css'; // Import the CSS file
 
+import './Home.css';
 export function Button() {
   return (
-    <button className="home-cv-button">
+    <a
+      href="/Manqoba-N.pdf" 
+      download="Manqoba-N.pdf"
+      className="home-cv-button"
+    >
       Download CV
-    </button>
+    </a>
   );
 }
-
 export default function Home({ home }) {
   return (
     <div className="home-container">

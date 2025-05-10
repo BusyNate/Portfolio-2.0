@@ -1,5 +1,6 @@
 .workflow-container {
-  padding: 20px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 .workflow-content hr{
@@ -8,7 +9,7 @@
 }
 
 .workflow-content {
-  display: flex;
+  display: flex;  
   justify-content: center;
   align-items: self;
   gap: 20px;
@@ -38,6 +39,7 @@
 
 .workflow-description {
   color: rgba(218, 226, 227, 1);
+
   font-size: 20px;
   text-align: left; 
   max-width: 600px;
@@ -46,9 +48,79 @@
 }
 
 .workflow-cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
+
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  grid-template-rows: repeat(2, auto);
   justify-content: space-evenly;
   width: 100%;
+  gap:15px;
+  max-width: fit-content;
+  margin:0 auto;
 }
+
+
+
+/*  --------------------Tablet------------------------------ */
+@media (max-width: 769px) {
+  .workflow-title {
+    font-size: 55px; 
+    margin-bottom: 0px;
+   
+  }
+
+  .workflow-description {
+    font-size: 18px;
+    margin-top: 0px;
+  }
+
+  .workflow-content{
+    display: flex;
+    padding: 0;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  .workflow-cards-container > * {
+    transform: scale(0.95);
+  }
+  
+
+}
+
+
+
+/* ---------------Mobile----------------------- */
+
+
+@media (max-width: 482px) {
+
+
+  .workflow-container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .workflow-title{
+    font-size: 40px;
+
+  }
+
+  .workflow-description{
+    font-size: 16px;
+    
+  }
+
+  .workflow-cards-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+}
+
+
+
+

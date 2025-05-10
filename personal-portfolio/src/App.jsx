@@ -9,8 +9,6 @@ import { Routes, Route } from 'react-router-dom'
 
 function App() {
 
-
-
   const home = {
     title:"Hello, I'm Manqoba Nathan Mtetwa",
     desr: "I am an upcoming Designer and Developer based in Johannesburg. I zealously strive towards carefully designing beautiful UIs, writing clean and efficient code for web-applications and managing technical projects. As a fresh graduate from Belgium Campus, I am eager to land my first role as a",
