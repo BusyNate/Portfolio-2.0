@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.svg'
 import GradientRule from './GradientRule';
-import './CSS/Navigation.css'; // Import the CSS file
+import './CSS/Navigation.css'; 
 
 export default function Navigation() {
   return (
@@ -15,8 +15,8 @@ export default function Navigation() {
           <li><Link to="/gallery">Gallery</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
-      </div>
       <GradientRule/>
+      </div>
     </>
   );
 }

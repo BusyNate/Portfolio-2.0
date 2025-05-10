@@ -1,8 +1,9 @@
-import React from 'react'
+
 import './Contact.css'
 import RecruiterForm from '../../Components/RecruiterForm'
-import LinkCards from '../../Components/LinkCards'
+
 import Navigation from '../../Components/Navigation'
+import { GitHubCard, LinkedInCard, EmailCard, CellnumberCard } from '../../Components/LinkCards'
 export default function Contact() {
   return (
     <div>
@@ -12,9 +13,16 @@ export default function Contact() {
    <h1>Recruiting? Lets get in Touch!</h1>
 
         <div className='panel'>
-            <LinkCards/>
+            <div className='cards'>
+              <CellnumberCard/>
+              <EmailCard/>
+              <LinkedInCard/>
+              <GitHubCard/>
+            </div>
             <br></br>
+            <div className='form'>
             <RecruiterForm/>
+            </div>
         </div>
 
    </div>

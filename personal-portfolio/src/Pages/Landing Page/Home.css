@@ -1,5 +1,7 @@
 .home-container {
     padding: 20px;
+    display: grid;
+    overflow-x: hidden;
 }
 
 .home-content {
@@ -8,6 +10,7 @@
     gap: 50px;
     padding: 30px;
 }
+
 
 .home-text-section {
     display: flex;
@@ -19,7 +22,7 @@
 .home-title {
     color: rgba(181, 22, 253);
     font-size: 65px;
-    margin: 10; /* Added to reset default margin */
+    margin: 10;
 }
 
 .home-description {
@@ -52,9 +55,54 @@
     display: block;
 }
 
-
 .home-cv-button:hover {
     transform: scale(1.1);
     transform: translateY(-4px);
     box-shadow: 0 4px 10px rgb(142, 142, 142);
+}
+
+@media (max-width: 769px){
+
+    .home-content{
+        flex-direction: column;
+        align-items: center;
+        gap:30px;
+        padding: 20px;
+
+    }
+
+      .home-text-section {
+        width: 100%;
+        text-align: left;
+    }
+
+      .home-title {
+        font-size: 50px;
+    }
+
+        .home-description {
+        font-size: 18px;
+        max-width: 90%;
+    }
+
+
+        .home-image {
+        margin-left: 0;
+        width: 75%;
+    }
+
+
+    @media (max-width: 480px){
+        
+
+
+        .home-container{
+            display: inline;
+        }
+
+        .home-title{
+            font-size: 2.2rem;
+        }
+
+    }
 }

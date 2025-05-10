@@ -1,9 +1,9 @@
 .card-container{
 
     width: 250px;
-    height: 300px;
-    padding: 20px;
-    border: none;
+    height: 260px;
+    padding: 17px;
+    
     background-image:linear-gradient(to top left, rgba(181,22,253), purple);
     border-radius: 10px;
     box-shadow: 0 8px 18px rgb(52, 1, 63);
@@ -11,7 +11,6 @@
 }
 
 .card-content{
-
 display: flex;
 align-items: flex-start;
 flex-direction: column;;
@@ -19,19 +18,20 @@ flex-direction: column;;
 
 
 .card-content h2, p{
-
+    padding-bottom: 8px;
     color: white;
     max-width: 297px;
 }
 
 .card-content img{
-
-
+    margin-left: -13px;
+    margin-bottom: 8px;
+    transform: scale(0.8);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card-content img:hover {
-    transform: scale(1.1);
+    transform: scale(1);
     box-shadow: 0 12px 20px rgb(110, 5, 131);
 
 }
