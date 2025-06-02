@@ -5,7 +5,7 @@ import './Home.css';
 export function Button() {
   return (
     <a
-      href="/Manqoba-N.pdf" 
+      href="/MN. Mtetwa CV.pdf.pdf" 
       download="Manqoba-N.pdf"
       className="home-cv-button"
     >
